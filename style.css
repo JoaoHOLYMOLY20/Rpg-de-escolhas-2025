@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&display=swap');
 :root{
     /* CSS HEX */
---dark-spring-green: #2c6e49ff;
---sea-green: #4c956cff;
---light-yellow: #fefee3ff;
---melon: #ffc9b9ff;
+--verde-escuro: #2c6e49ff;
+--verde-claro: #4c956cff;
+--amarelo-fraco: #fefee3ff;
+--bege: #ffc9b9ff;
+--título: "Playfair Display", serif;
+--texto: "Poiret One", sans-serif;
+}
+
+body{
+    background-color: var(--verde-escuro);
+    font-family: var(--texto);
 }
